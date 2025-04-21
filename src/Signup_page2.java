@@ -240,14 +240,16 @@ public class Signup_page2 extends JFrame implements ActionListener{
 		if(Religion_combo.getSelectedIndex()==0) {
 			Religion="";
 		}else if(Religion_combo.getSelectedIndex()==1) {
-			Religion="Hindu";
+			Religion="Jain";
 		}else if(Religion_combo.getSelectedIndex()==2) {
-			Religion="Muslim";
+			Religion="Hindu";
 		}else if(Religion_combo.getSelectedIndex()==3) {
-			Religion="Sikh";
+			Religion="Muslim";
 		}else if(Religion_combo.getSelectedIndex()==4) {
-			Religion="Cristian";
+			Religion="Sikh";
 		}else if(Religion_combo.getSelectedIndex()==5) {
+			Religion="Cristian";
+		}else if(Religion_combo.getSelectedIndex()==6) {
 			Religion="Other";
 		}
 		
